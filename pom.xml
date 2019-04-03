@@ -14,6 +14,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- Doing release by manullay uploading to vaadin.com/directory -->
         <maven.deploy.skip>true</maven.deploy.skip>
+        <vaadin.version>13.0.3</vaadin.version>
     </properties>
     <organization>
         <name>Matti Tahvonen</name>
@@ -45,7 +46,7 @@
                 <artifactId>vaadin-bom</artifactId>
                 <type>pom</type>
                 <scope>import</scope>
-                <version>11.0.2</version>
+                <version>${vaadin.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

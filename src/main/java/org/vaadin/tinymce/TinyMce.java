@@ -12,7 +12,7 @@ import org.github.legioth.field.Field;
 import org.github.legioth.field.ValueMapper;
 
 @Tag("div")
-@JavaScript("//cdn.tinymce.com/4.6/tinymce.min.js")
+@JavaScript("//cdn.tinymce.com/4.9/tinymce.min.js")
 @JavaScript("frontend://tinymceConnector.js")
 public class TinyMce extends Component implements Field<TinyMce, String> {
 
